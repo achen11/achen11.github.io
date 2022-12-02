@@ -1,0 +1,234 @@
+html {
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+main {
+    margin-top: 70px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+body {background-color: rgb(219, 214, 250);}
+
+p {
+    font-size: 18px;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav.top-nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 4px 4px #0003;
+    padding-left: 2em;
+    padding-right: 2em;
+    z-index: 1;
+}
+
+.nav-container {
+    user-select: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.menu-items {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.socials {
+    padding: 5px;
+}
+.socials a i {
+    transition: transform .2s;
+    padding: 3px;
+}
+
+.socials a i:hover {
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
+nav.top-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav.top-nav li {
+    font-weight: bold;
+    color: rgb(161, 161, 161);
+    margin: 5px;
+    display: inline-block; 
+    padding: 5px;
+    position: relative;
+}
+
+nav.top-nav li a, li a:link, li a:visited {
+    color: rgb(161, 161, 161);
+}
+
+nav.top-nav li a:hover {
+    color: black;
+}
+
+.selected {
+    color: black !important;
+}
+
+.intro-container {
+    background-size: cover;
+    height: 550px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.intro-text {
+    position: relative;
+    top: -15px;
+    margin: 100px;
+    width: 200%;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 25px;
+    border: 3px dashed blue;
+    margin-left: 0px;
+    background-color: rgb(239, 239, 239);
+}
+
+.intro-text h1 {
+    font-size: 40px;
+}
+
+.intro-photo img{
+    margin-left: 170px;
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+
+
+/* PROJECT SECTION */
+
+.project-info {
+    text-align: center;
+    font-size: 40px;
+}
+
+#project-title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.minesweeper {
+    display: inline-block;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.minesweeper img{
+    max-width: 40%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.stayaway {
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#stayaway-title {
+    text-decoration-line: underline;  
+}
+
+.stayaway img{
+    max-width: 28%;
+    height: auto;
+    border-radius: 10%;
+}
+
+
+/* STAY AWAY SECTION */
+.stayaway-header {
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 25px;
+    border: 3px dashed blue;
+    padding-left: -20px;
+}
+
+.stayaway-container {
+    margin-left: 75px;
+}
+
+.stayaway-container h3{
+    font-size: 20px;
+}
+
+#stayawaylevel {
+    max-width: 33.5%;
+    height: auto;
+}
+
+.stayaway-details {
+    padding-top: 10px;
+}
+
+.stayaway-details h2{
+    padding-top: 10px;
+}
+
+#gamelink {
+    text-decoration-line: underline;  
+}
+
+
+
+
+
+
+/* FOOTER SECTION */
+footer {
+    background-color:  #1c2f7d;
+    height: 280px;
+    color: white;
+}
+
+.footer-container {
+    margin: 100px;
+    padding-top: 0.8em;
+    font-size: 125%;
+}
+
+.footer-container h3 {
+    font-weight: normal;
+}
+
+.contact-link, .contact-link:link, .contact-link:visited {
+    color: white;
+}
+
+.contact-link:hover {
+    color: black;
+}
