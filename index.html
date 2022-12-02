@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- helps connect fonts faster  -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.google.com/specimen/Nunito" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <!--icons-->
+        <script src="https://kit.fontawesome.com/d340e0cb0a.js" crossorigin="anonymous"></script>
+        <title>Amy Chen's Portfolio</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="top-nav" role="menubar" aria-label="Main Navigation">
+                <div class="nav-container">
+                    <div class="nav-name" role="menuitem"><a tabindex="1" href="index.html">Amy Chen</a></div>
+                    <div class="menu-items">
+                        <div>
+                            <ul>
+                                <li><a tabindex="2" href="index.html" role="menuitem" class="selected">Home</a></li>
+                                <li><a tabindex="3" href="#projects" role="menuitem">Projects</a></li>
+                                <li><a tabindex="4" href="AmyChenResume.pdf" target="_blank" role="menuitem">Resume</a></li>
+                            </ul>
+                        </div>
+                        <div class="socials">
+                            <a tabindex="5" href="https://www.linkedin.com/in/amychen123/" target="_blank" role="menuitem"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a tabindex="6" href="https://github.com/achen11" target="_blank" role="menuitem"><i class="fab fa-github fa-lg"></i></a>
+                            <a tabindex="7" href="https://www.facebook.com/profile.php?id=100008806383635" target="_blank" role="menuitem"><i class="fab fa-facebook fa-lg"></i></a>
+                            <a tabindex="8" href="mailto:amychen2024@u.northwestern.edu" target="_blank" role="menuitem"><i class="far fa-envelope fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="intro-container" aria-label="Intro Image and Text">
+                <div class="intro-photo">
+                    <span role="img" aria-label="Background photo, a headshot of Amy Chen"> </span>
+                    <img src="amyphotosquare.jpg" alt="headshot of Amy Chen">
+                </div>
+                <div class="intro-text">
+                    <h1>Hi, I'm Amy!</h1>
+                    <p>
+                        I'm a junior at Northwestern University studying Computer Science and Journalism. I'm interested in exploring 
+                        the intersection between media and technology. Outside of class you can find me ice skating, taking photos, baking, and rock climbing. 
+                        I'm currently looking for opportunities in software engineering for summer 2023.
+                    </p>
+                </div>
+            </div>
+            <section id="projects" aria-label="Project List">
+            <div class="project-info"></div>
+                <h1 id ="project-title">Projects</h1>
+                <div class="minesweeper">
+                    <h2 id ="minesweeper-title">Minesweeper</h2>
+                    <p>
+                        Recreated the minesweeper game from scratch using C++
+                    </p>
+                    <img src="minesweeper1.PNG" alt="screenshot of minesweeper game">
+                </div>
+                <div class="stayaway">
+                    <a href=stayaway.html><h2 id ="stayaway-title">Stay Away</h2></a>
+                    <p>
+                        Created a Covid-19 themed adventure game 
+                    </p>
+                    <a href=stayaway.html><img src="stayawaysquare.jpg" alt="screenshot of cover of stay away game"></a>
+                </div>
+            </div>
+            </section>
+            <footer>
+                <div class="footer-container">
+                    <h1>Amy Chen</h1>
+                    <h3><i>Would love to connect with you!</i></h3>
+                    <p>
+                        If you'd like to connect,
+                        fill out <a href="contactme.html" class="contact-link"><u>this contact form.</u></a>
+                    </p>
+                    <p>
+                        Also, feel free to email me at <a href="mailto:amychen2024@u.northwestern.edu" class="contact-link"><u>amychen2024@u.northwestern.edu</u></a>
+                    </p>
+                </div>
+            </footer>
+        </main>
+    </body>
+
+</html>
