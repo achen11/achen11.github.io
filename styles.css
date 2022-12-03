@@ -146,6 +146,10 @@ nav.top-nav li a:hover {
     margin-left: 150px;
 }
 
+#minesweeper-title {
+    text-decoration-line: underline;  
+}
+
 .minesweeper img{
     max-width: 40%;
     height: auto;
@@ -204,8 +208,27 @@ nav.top-nav li a:hover {
 }
 
 
+/* MINESWEEPER SECTION */
+#minesweepergame {
+    max-width: 33.5%;
+    height: auto;
+}
 
+.minesweeper-container {
+    margin-left: 75px;
+}
 
+.minesweeper-container h3{
+    font-size: 20px;
+}
+
+.minesweeper-details {
+    padding-top: 10px;
+}
+
+.minesweeper-details h2{
+    padding-top: 10px;
+}
 
 
 /* FOOTER SECTION */
@@ -232,3 +255,23 @@ footer {
 .contact-link:hover {
     color: black;
 }
+
+#calendar-link {
+    color:black;
+    background-color:#f6d902;
+    text-decoration-line: underline;  
+}
+
+/* CALENDAR SECTION */
+.calendar-header {
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 25px;
+    border: 3px dashed blue;
+    padding-left: -20px;
+}
+
+.calendar-container {
+    text-align: center;
+}
+

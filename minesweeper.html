@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="styles.css">
         <!--icons-->
         <script src="https://kit.fontawesome.com/d340e0cb0a.js" crossorigin="anonymous"></script>
-        <title>Amy Chen's Portfolio</title>
+        <title>Minesweeper Project</title>
     </head>
 
     <body>
@@ -20,7 +20,7 @@
                         <div>
                             <ul>
                                 <li><a tabindex="2" href="index.html" role="menuitem" class="selected">Home</a></li>
-                                <li><a tabindex="3" href="#projects" role="menuitem">Projects</a></li>
+                                <li><a tabindex="3" href="index.html#projects" role="menuitem">Projects</a></li>
                                 <li><a tabindex="4" href="AmyChenResume.pdf" target="_blank" role="menuitem">Resume</a></li>
                             </ul>
                         </div>
@@ -34,47 +34,45 @@
                 </div>
             </nav>
         </header>
+
         <main>
-            <div class="intro-container" aria-label="Intro Image and Text">
-                <div class="intro-photo">
-                    <span role="img" aria-label="Background photo, a headshot of Amy Chen"> </span>
-                    <img src="amyphotosquare.jpg" alt="headshot of Amy Chen">
-                </div>
-                <div class="intro-text">
-                    <h1>Hi, I'm Amy!</h1>
-                    <p>
-                        I'm a junior at Northwestern University studying Computer Science and Journalism. I'm interested in exploring 
-                        the intersection between media and technology. Outside of class you can find me ice skating, taking photos, baking, and rock climbing. 
-                        I'm currently looking for internship opportunities in software engineering for summer 2023.
-                    </p>
-                </div>
+            <div class="stayaway-header">
+                <h1>Minesweeper Project</h1>
             </div>
-            <section id="projects" aria-label="Project List">
-            <div class="project-info"></div>
-                <h1 id ="project-title">Projects</h1>
-                <div class="minesweeper">
-                    <a href=minesweeper.html><h2 id ="minesweeper-title">Minesweeper</h2></a>
-                    <p>
-                        Recreated the minesweeper game from scratch using C++
-                    </p>
-                    <a href=minesweeper.html></a><img src="minesweeper1.PNG" alt="screenshot of minesweeper game"></a>
+            <div class="minesweeper-container">
+                <h3>Skills: C++</h3>
+                <h3>Role: Frontend Developer</h3>
+                <h2>Description:</h2>
+                <p>As big fans of the game Minesweeper we wanted to try recreating the game from scratch. 
+                    We used C++ and the ge:211 graphical library to code the project.  You can see a playthrough of our game below. <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Fzl2xpgWhUg" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>One of our hardest challenges was figuring how to structure our code. We ended up splitting our code into 4 seprate areas: 
+                    a Board, Model, Controller and View sections. 
+                </p>
+                <img id = "minesweepergame" src="minesweeper2.PNG" alt="screenshot of minesweeper game">
+                <p>In addition to the backend code which randomly generates the locations of mines and the numbered 
+                    tiles surrounding the mines, we also incorporated taking in user input.
+                </p>
+                <p>If you right-click on the 
+                    tiles you can unveil them and if you left-click on the tiles you can flag them. When you successfully 
+                    unveil all the non-mine tiles you win the game! 
+                </p>
+                <p> When you successfully unveil all the non-mine tiles you win the game!</p>
+                <div class="minesweeper-details">
+                    <h2>Details:</h2>
                 </div>
-                <div class="stayaway">
-                    <a href=stayaway.html><h2 id ="stayaway-title">Stay Away</h2></a>
-                    <p>
-                        Created a Covid-19 themed adventure game 
-                    </p>
-                    <a href=stayaway.html><img src="stayawaysquare.jpg" alt="screenshot of cover of stay away game"></a>
-                </div>
+                <p>You can check out our code <a id="gamelink" href="https://github.com/achen11/MineSweeper/tree/master/final_project">here</a> </p>
             </div>
-            </section>
+    
             <footer>
                 <div class="footer-container">
                     <h1>Amy Chen</h1>
                     <h3><i>Would love to connect with you!</i></h3>
                     <p>
                         If you'd like to meet,
-                        you can view my availability <a id="calendar-link" href="schedule.html"><u>here</u></a>
+                        you can view my availability <a id="calendar-link" href="schedule.html"><u>here.</u></a>
                     </p>
                     <p>
                         Also, feel free to email me at <a href="mailto:amychen2024@u.northwestern.edu" class="contact-link"><u>amychen2024@u.northwestern.edu</u></a>
